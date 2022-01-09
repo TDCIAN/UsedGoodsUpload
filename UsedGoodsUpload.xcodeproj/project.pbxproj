@@ -22,6 +22,8 @@
 		1E90B234278B239400312F7E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B233278B239400312F7E /* Category.swift */; };
 		1E90B237278B23CC00312F7E /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B236278B23CC00312F7E /* CategoryViewModel.swift */; };
 		1E90B239278B257700312F7E /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B238278B257700312F7E /* CategoryListViewController.swift */; };
+		1E90B23C278B281D00312F7E /* PriceTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B23B278B281D00312F7E /* PriceTextFieldCellViewModel.swift */; };
+		1E90B23E278B29B500312F7E /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B23D278B29B500312F7E /* PriceTextFieldCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		1E90B233278B239400312F7E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		1E90B236278B23CC00312F7E /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		1E90B238278B257700312F7E /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		1E90B23B278B281D00312F7E /* PriceTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		1E90B23D278B29B500312F7E /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 				1E90B22A278B1F4000312F7E /* MainViewModel.swift */,
 				1E90B231278B21DF00312F7E /* TitleTextFieldCell */,
 				1E90B23A278B27EB00312F7E /* CategoryViewController */,
+				1E90B23F278B2E6100312F7E /* PriceTextFieldCell */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -128,6 +133,15 @@
 				1E90B238278B257700312F7E /* CategoryListViewController.swift */,
 			);
 			path = CategoryViewController;
+			sourceTree = "<group>";
+		};
+		1E90B23F278B2E6100312F7E /* PriceTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				1E90B23B278B281D00312F7E /* PriceTextFieldCellViewModel.swift */,
+				1E90B23D278B29B500312F7E /* PriceTextFieldCell.swift */,
+			);
+			path = PriceTextFieldCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,9 +226,11 @@
 			files = (
 				1E90B22E278B21A200312F7E /* TitleTextFieldCell.swift in Sources */,
 				1E90B230278B21DB00312F7E /* TitleTextFieldCellViewModel.swift in Sources */,
+				1E90B23C278B281D00312F7E /* PriceTextFieldCellViewModel.swift in Sources */,
 				1E90B239278B257700312F7E /* CategoryListViewController.swift in Sources */,
 				1E90B20B278B1D6B00312F7E /* AppDelegate.swift in Sources */,
 				1E90B20D278B1D6B00312F7E /* SceneDelegate.swift in Sources */,
+				1E90B23E278B29B500312F7E /* PriceTextFieldCell.swift in Sources */,
 				1E90B237278B23CC00312F7E /* CategoryViewModel.swift in Sources */,
 				1E90B229278B1E5000312F7E /* MainViewController.swift in Sources */,
 				1E90B22B278B1F4000312F7E /* MainViewModel.swift in Sources */,

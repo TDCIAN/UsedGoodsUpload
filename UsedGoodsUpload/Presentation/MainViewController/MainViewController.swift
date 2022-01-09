@@ -44,7 +44,10 @@ class MainViewController: UIViewController {
         tableView.separatorStyle = .singleLine
         tableView.tableFooterView = UIView()
         
-        tableView.register(TitleTextFieldCell.self, forCellReuseIdentifier: "TitleTextFieldCell")
+        tableView.register(TitleTextFieldCell.self, forCellReuseIdentifier: "TitleTextFieldCell") // index row 0에 표시할 셀(글 제목)
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CategorySelectCell") // index row 1에 표시할 셀(카테고리 선택)
+        tableView.register(PriceTextFieldCell.self, forCellReuseIdentifier: "PriceTextFieldCell") // index row 2에 표시할 셀(가격)
+        
     }
     
     private func layout() {
