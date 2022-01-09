@@ -19,6 +19,9 @@
 		1E90B22B278B1F4000312F7E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B22A278B1F4000312F7E /* MainViewModel.swift */; };
 		1E90B22E278B21A200312F7E /* TitleTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B22D278B21A200312F7E /* TitleTextFieldCell.swift */; };
 		1E90B230278B21DB00312F7E /* TitleTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B22F278B21DB00312F7E /* TitleTextFieldCellViewModel.swift */; };
+		1E90B234278B239400312F7E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B233278B239400312F7E /* Category.swift */; };
+		1E90B237278B23CC00312F7E /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B236278B23CC00312F7E /* CategoryViewModel.swift */; };
+		1E90B239278B257700312F7E /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E90B238278B257700312F7E /* CategoryListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		1E90B22A278B1F4000312F7E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		1E90B22D278B21A200312F7E /* TitleTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCell.swift; sourceTree = "<group>"; };
 		1E90B22F278B21DB00312F7E /* TitleTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		1E90B233278B239400312F7E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		1E90B236278B23CC00312F7E /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		1E90B238278B257700312F7E /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +76,8 @@
 			children = (
 				1E90B20A278B1D6B00312F7E /* AppDelegate.swift */,
 				1E90B20C278B1D6B00312F7E /* SceneDelegate.swift */,
-				1E90B22C278B218500312F7E /* MainViewController */,
+				1E90B232278B238700312F7E /* Entity */,
+				1E90B235278B23A800312F7E /* Presentation */,
 				1E90B213278B1D6C00312F7E /* Assets.xcassets */,
 				1E90B215278B1D6C00312F7E /* LaunchScreen.storyboard */,
 				1E90B218278B1D6C00312F7E /* Info.plist */,
@@ -84,6 +91,7 @@
 				1E90B228278B1E5000312F7E /* MainViewController.swift */,
 				1E90B22A278B1F4000312F7E /* MainViewModel.swift */,
 				1E90B231278B21DF00312F7E /* TitleTextFieldCell */,
+				1E90B23A278B27EB00312F7E /* CategoryViewController */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -95,6 +103,31 @@
 				1E90B22F278B21DB00312F7E /* TitleTextFieldCellViewModel.swift */,
 			);
 			path = TitleTextFieldCell;
+			sourceTree = "<group>";
+		};
+		1E90B232278B238700312F7E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1E90B233278B239400312F7E /* Category.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		1E90B235278B23A800312F7E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E90B22C278B218500312F7E /* MainViewController */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E90B23A278B27EB00312F7E /* CategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E90B236278B23CC00312F7E /* CategoryViewModel.swift */,
+				1E90B238278B257700312F7E /* CategoryListViewController.swift */,
+			);
+			path = CategoryViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,10 +212,13 @@
 			files = (
 				1E90B22E278B21A200312F7E /* TitleTextFieldCell.swift in Sources */,
 				1E90B230278B21DB00312F7E /* TitleTextFieldCellViewModel.swift in Sources */,
+				1E90B239278B257700312F7E /* CategoryListViewController.swift in Sources */,
 				1E90B20B278B1D6B00312F7E /* AppDelegate.swift in Sources */,
 				1E90B20D278B1D6B00312F7E /* SceneDelegate.swift in Sources */,
+				1E90B237278B23CC00312F7E /* CategoryViewModel.swift in Sources */,
 				1E90B229278B1E5000312F7E /* MainViewController.swift in Sources */,
 				1E90B22B278B1F4000312F7E /* MainViewModel.swift in Sources */,
+				1E90B234278B239400312F7E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
